@@ -213,9 +213,31 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 #copy,
 #tc a{
     color: grey;
     font-size: 15px;
     justify-content: center;
+}
+
+.float{
+	position: fixed;	
+	bottom:80px;
+	right:40px;
+	background-color:rgb(247, 119, 189);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    padding: 10px 30px 10px 30px;
+}
+
+.float:hover{
+    background-color: rgb(253, 115, 173);
+    color: white;
+}
+
+.my-float{
+	margin-top:22px;
 }
