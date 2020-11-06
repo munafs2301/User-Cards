@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 60px;
+    
 }
 
 #sketch-content{
@@ -12,7 +13,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
-
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #sketch{   
@@ -34,8 +36,11 @@ body{
 #aside {
     flex: 1;
     display: flex;
+  
     flex-direction: column;
     padding-top: 20px;
+    padding-right: 30px;
+    
 }
 
 #navbar {            
@@ -50,11 +55,9 @@ body{
     margin: 0;
     padding: 0;
 }
-#navbar li{
-    float: left;
-}
+
 #navbar ul li a{
-    display: block;
+   
     color: rgb(150, 144, 144);
     text-decoration: none;
     padding: 10px 20px ;
@@ -193,7 +196,7 @@ body{
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 10px;
-    
+    position: fixed;
     flex-wrap: wrap;
     border: 0.5px rgb(238, 232, 232) solid;
     
