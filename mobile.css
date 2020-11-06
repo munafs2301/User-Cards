@@ -11,6 +11,11 @@ body {
      
  }
  
+#aside {
+        padding-left: 30px;
+
+}
+
  #sketch {
      display: flex;
      flex-direction: column;
